@@ -21,8 +21,8 @@ function retornaUsuarios() {
   return usuarios;
 }
 
-function adicionarNovoUsuario(nome) {
-  usuarios.push(nome);
+function adicionarNovoUsuario(usuario) {
+  usuarios.push(usuario);
 }
 
 module.exports = {
